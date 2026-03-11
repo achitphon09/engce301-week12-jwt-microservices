@@ -27,7 +27,3 @@
 - **ส่วนที่ 1** การทดสอบ Test Case อยู่ในไฟล์ [REPORT.md](./REPORT.md)
 - **ส่วนที่ 2** Architecture Comparison ก่อนและหลัง อยู่ในไฟล์ [docs/c2-security-architecture-week6.drawio](./docs/c2-security-architecture-week6.drawio) และ [docs/c2-security-architecture.drawio](./docs/c2-security-architecture.drawio)
 - **ส่วนที่ 3** Architecture Decision Record อยู่ในไฟล์ [docs/ADR-001-auth-service.md](./docs/ADR-001-auth-service.md)
-
-### ผลลัพธ์การทดสอบหลังจากการแก้ไขบั๊ก
-
-(ภาพผลลัพธ์จะถูกเพิ่มในภายหลังจากการรัน Test)
