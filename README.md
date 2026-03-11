@@ -1,11 +1,11 @@
 # engce301-week12-jwt-microservices
 
-**ชื่อ-นามสกุล:** อชิตพล เอาชารส 
-**รหัสนักศึกษา:** -
+**ชื่อ-นามสกุล:** อชิตพล โอชารส 
+**รหัสนักศึกษา:** 67543206027-4
 
 ## ใบงาน Week 12: Security Architecture Analysis
 
-โปรเจ็กต์นี้เป็นการนำ Microservices (Auth, User, Task) มาใช้งานร่วมกับ JWT Authentication โดยอ้างอิงจากโครงสร้างโปรเจ็กต์ของ `maythiwat/engce301-lab-jwt-microservices` (แต่อาจมีการปรับปรุงและแก้ไขบัค)
+โปรเจ็กต์นี้เป็นการนำ Microservices (Auth, User, Task) มาใช้งานร่วมกับ JWT Authentication
 
 ### การแก้ไข Bug ฝั่ง Backend (Sync Profiles)
 ในตัวอย่างดั้งเดิม เมื่อทำการ `POST /api/auth/register` แอคเคาท์จะถูกสร้างใน `auth_db` แต่ไม่ได้มีการสร้างข้อมูล Profile พื้นฐานในฝั่งของ `user_service` ทำให้เมื่อเรียกใช้งาน `GET /api/users/me` จะเกิด 404 Not Found
